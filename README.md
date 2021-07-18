@@ -1,6 +1,6 @@
 ## Introduction
 
-A simple node.js backend to scrape the internet. It's sill work in progress...
+A simple node.js backend to scrape the internet. It's still a work in progress...
 
 ## Roadmap
 
