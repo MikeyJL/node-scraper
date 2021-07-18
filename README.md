@@ -22,12 +22,25 @@ Get the image here: https://hub.docker.com/repository/docker/mikeylau/node-scrap
 ### Local
 
 ```
-node index.js
+node .
+```
 
 or
 
-node .
 ```
+docker-compose up
+```
+
+## Usage
+
+**GET** ```/v1/scrape```
+
+| Body parameters | Description |
+| --- | --- |
+| url **(required)** | The URL of the website that you wish to scrape. |
+| target **(required)** | The HTML element where you want to start scraping from. |
+| returnType **(required)** | Either ```html```, ```text```, ```list-html```, or ```list-text```. |
+| select **(required list-html and list-text)** | The element tag to select for the list. |
 
 ## Author
 
